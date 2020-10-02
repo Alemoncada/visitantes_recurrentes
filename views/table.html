@@ -1,16 +1,15 @@
+<a href="/register">register</a>
 <table>
     <thead>
         <tr>
-        <th>Id</th>
         <th>Name</th>
-        <th>Visits</th>
+        <th>Email</th>
     </tr>
     </thead>
         {{#visitors}} 
         <tr>
-            <td>{{id}}</td>
-            <td>{{name}}</td>
-            <td>{{count}}</td>
+        <td>{{name}}</td>
+        <td>{{email}}</td>
         </tr>
         {{/visitors}}
 </table>

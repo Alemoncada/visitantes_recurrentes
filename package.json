@@ -106,38 +106,7 @@
       "resolved": "https://registry.npmjs.org/bluebird/-/bluebird-3.5.1.tgz",
       "version": "3.5.1"
     },
-    "body-parser": {
-      "dependencies": {
-        "debug": {
-          "integrity": "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==",
-          "requires": {
-            "ms": "2.0.0"
-          },
-          "resolved": "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz",
-          "version": "2.6.9"
-        },
-        "ms": {
-          "integrity": "sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=",
-          "resolved": "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz",
-          "version": "2.0.0"
-        }
-      },
-      "integrity": "sha512-dhEPs72UPbDnAQJ9ZKMNTP6ptJaionhP5cBb541nXPlW60Jepo9RV/a4fX4XWW9CuFNK22krhrj1+rgzifNCsw==",
-      "requires": {
-        "bytes": "3.1.0",
-        "content-type": "~1.0.4",
-        "debug": "2.6.9",
-        "depd": "~1.1.2",
-        "http-errors": "1.7.2",
-        "iconv-lite": "0.4.24",
-        "on-finished": "~2.3.0",
-        "qs": "6.7.0",
-        "raw-body": "2.4.0",
-        "type-is": "~1.6.17"
-      },
-      "resolved": "https://registry.npmjs.org/body-parser/-/body-parser-1.19.0.tgz",
-      "version": "1.19.0"
-    },
+    "body-parser": "^1.19.0",
     "boxen": {
       "integrity": "sha512-eB4uT9RGzg2odpER62bBwSLvUeGC+WbRjjyyFhGsKnc8wp/m0+hQsMUvUe3H2V0D5vw0nBdO1hCJoZo5mKeuIQ==",
       "requires": {
